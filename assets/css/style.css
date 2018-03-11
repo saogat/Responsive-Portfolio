@@ -255,3 +255,51 @@ p.footerP,
 footerP {
     color: white;
 }
+
+
+
+@media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    body {
+       background: blue;
+    }
+    
+    .container{
+        width: 100%;
+    }
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+        background: red;
+    }
+    
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 768px;
+      padding: 20px;
+    }
+  }
+  
+
+@media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    body {
+        background: green;
+    }
+    
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 60px;
+    }
+  }
+  
