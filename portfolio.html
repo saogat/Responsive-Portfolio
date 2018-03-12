@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -12,58 +13,72 @@
 <body>
     <header id="masthead">
         <div class="container">
-          <a href="#" id="logo">Saogat Rab</a>
-          <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </nav>
+            <a href="#" id="logo">Saogat Rab</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-      </header>
+    </header>
 
-    <div class="container">
+    <div class="wrapper">
+        <div id="main-container" class="container">
 
-        <section>
-            <h1 id="sectionTitle">Portfolio</h1>
-            <hr>
-            <article>
-                <ul>
-                    <li id="hangmanRpgImage" class="group">
+                <section class="main-section">
+                <h1 id="sectionTitle">Portfolio</h1>
+            
+                <article>
+                    <ul>
+                        <li id="hangmanRpgImage" class="group">
 
-                        <div id="hangmanImage">
-                            <img src="assets/images/hangman.jpg" height="200" width="200" alt="hangman game" />
-                            <h2 id="hangmanH2">Hangman</h2>
-                        </div>
-
-                        <div id="rpgImage">
-                            <img src="assets/images/rpg.jpg" height="200" width="200" alt="rpg game" />
-                            <h2 id="rpgH2">RPG Game</h2>
-                        </div>
-                    </li>
-
-                    <li  id="triviaRutgersImage" class="group">
-                        <div>
-                            <div id="triviaImage">
-                                <img src="assets/images/trivia.jpg" height="200" width="200" alt="trivia game" />
-                                <h2 id="triviaH2">Trivia Game</h2>
+                            <div id="hangmanImage">
+                                <img src="assets/images/hangman.jpg" height="200" width="200" alt="hangman game" />
+                                <h2 id="hangmanH2">Hangman</h2>
                             </div>
 
-                            <div id="rutgersImage">
-                                <img src="assets/images/rutgers.jpg" height="200" width="200" alt="rutgers game" />
-                                <h2 id="rutgersH2">Rutgers Info Game</h2>
+                            <div id="rpgImage">
+                                <img src="assets/images/rpg.jpg" height="200" width="200" alt="rpg game" />
+                                <h2 id="rpgH2">RPG Game</h2>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div id="rockImage">
-                            <img src="assets/images/rock.jpg" height="200" width="200" alt="rock paper scissors game" />
-                            <h2 id="rockH2">Rock Paper Scissors Game</h2>
-                        </div>
-                    </li>
+                        </li>
 
-                </ul>
-            </article>
-        </section>
+                        <li id="triviaRutgersImage" class="group">
+                            <div>
+                                <div id="triviaImage">
+                                    <img src="assets/images/trivia.jpg" height="200" width="200" alt="trivia game" />
+                                    <h2 id="triviaH2">Trivia Game</h2>
+                                </div>
+
+                                <div id="rutgersImage">
+                                    <img src="assets/images/rutgers.jpg" height="200" width="200" alt="rutgers game" />
+                                    <h2 id="rutgersH2">Rutgers Info Game</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="rockImage">
+                                <img src="assets/images/rock.jpg" height="200" width="200" alt="rock paper scissors game" />
+                                <h2 id="rockH2">Rock Paper Scissors Game</h2>
+                            </div>
+                        </li>
+
+                    </ul>
+                </article>
+            </section>
+
+            <section class="sidebar">
+                <div id="connect">
+                    <h2>Connect with Me</h2>
+
+                    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="social" alt="Github">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/2000px-Linkedin.svg.png" class="social"
+                        alt="LinkedIn">
+                    <img src="https://www.shareicon.net/data/512x512/2015/08/30/93317_stackoverflow_512x512.png" class="social" alt="Stack Overflow">
+                </div>
+            </section>
+
+        </div>
     </div>
 
     <footer>
